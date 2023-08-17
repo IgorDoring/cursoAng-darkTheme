@@ -1,0 +1,37 @@
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--primary);
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+}
+
+header, ul, div.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+li {
+  padding: 0 15px 0 0;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+li, a {
+  color: var(--text-menu);
+}
+
+li:last-child {
+   padding: 0;
+}
+
+img{
+  width: 21px;
+}
